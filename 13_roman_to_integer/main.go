@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-// accidently made this function convert roman numerals in any order to integers assuming the pairs are in a set
+// accidently made this function convert roman numerals in any order to integers assuming 
 func main() {
 	start := time.Now()
 	m := map[string]int{"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000, "IV": 4, "IX": 9, "XL": 40, "XC": 90, "CD": 400, "CM": 900}
